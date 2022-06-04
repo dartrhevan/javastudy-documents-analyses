@@ -1,0 +1,48 @@
+{
+  "analysesByType": {
+    "Mail": {
+      "totalCount": 3,
+      "ratio": 30
+    },
+    "FiringOrder": {
+      "totalCount": 3,
+      "ratio": 30
+    },
+    "HiringOrder": {
+      "totalCount": 4,
+      "ratio": 40
+    }
+  },
+  "analysesByEmployee": {
+    "Alex": {
+      "totalCount": 1,
+      "executedCount": 1,
+      "executionPercentage": 100
+    },
+    "Van": {
+      "totalCount": 1,
+      "executedCount": 0,
+      "executionPercentage": 0
+    },
+    "Sergy": {
+      "totalCount": 1,
+      "executedCount": 1,
+      "executionPercentage": 100
+    },
+    "Dimitry": {
+      "totalCount": 2,
+      "executedCount": 2,
+      "executionPercentage": 100
+    },
+    "Vova": {
+      "totalCount": 1,
+      "executedCount": 1,
+      "executionPercentage": 100
+    },
+    "Sam": {
+      "totalCount": 1,
+      "executedCount": 0,
+      "executionPercentage": 0
+    }
+  }
+}
