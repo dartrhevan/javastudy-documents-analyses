@@ -5,6 +5,6 @@ import org.javastudy.documents.model.analyses.AnalyticalReport;
 /**
  * Сервис сохранения рассчитанной аналитики.
  */
-public interface AnalyticsSaver {
+public interface AnalysesSaver {
     void saveAnalytics(AnalyticalReport analytics);
 }

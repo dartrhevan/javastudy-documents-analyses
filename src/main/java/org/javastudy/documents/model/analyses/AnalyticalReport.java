@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.javastudy.documents.entity.stuffing.OrderStatus;
 
 import java.util.Map;
 
@@ -13,8 +12,6 @@ import java.util.Map;
 @AllArgsConstructor
 @NoArgsConstructor
 public class AnalyticalReport {
-    private Map<Class, Long> documentsCountByType;
-    private Map<OrderStatus, Long> documentsCountByStatus;
-//    private
-
+    private Map<String, DocumentTypeAnalyses> analysesByType;
+    private Map<String, EmployeeDocumentAnalyses> analysesByEmployee;
 }
